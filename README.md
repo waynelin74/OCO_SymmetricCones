@@ -219,14 +219,14 @@ SVMgame.py contains the code for running the SVM game.
 * Used in *SVMgame.py*.
 - Uses *helpers.py* for an exponential function that avoids numerical error when taking in very negative exponents.
 
-Loss and Dataset generation
+****Loss and Dataset generation**** \
 *SC_losses.py* generates the losses for online optimization over symmetric cones and the ball.
 * Used in *SCMWU_plot.py*, *SCMWUball_plot.py*. (Figures 2-4.)
 
-LinClass_datasets.py generates the datasets for the SVM game.
+*LinClass_datasets.py* generates the datasets for the SVM game.
 * Used in *SVM_game_tabulate.py*, *SVM_game_plot.py*. (Tables 1-2, Figures 5-7.)
 
-Others
+****Others****
 *helpers.py* contains miscellaneous helper functions, including an exponential function that avoids numerical error when taking in very negative exponents.
 * Used in *SCMWUball.py*, *SVMgame.py*, and *MWU.py*.
 __________________________________________________________________________
