@@ -233,6 +233,6 @@ __________________________________________________________________________
 
 ## III - Notes on randomization
 
-As the algorithms implemented are all deterministic, all the randomization happening in the code occurs in the randomization of losses. All of these are confined to the SC_losses.py helper file, and pseudocode can be found in the comments there. (distr=‘ball’ is used in all function calls.)
+As the algorithms implemented are all deterministic, all the randomization happening in the code occurs in the randomization of losses. All of these are confined to the *SC_losses.py* helper file, and pseudocode can be found in the comments there. (distr=‘ball’ is used in all function calls.)
 
 The random seed has been set to the value 1234 in all plotter files to be able to recreate the same plots. To change the seed, simply find the seed in the “””PARAMETERS””” section of the file and change it.
